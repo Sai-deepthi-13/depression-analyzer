@@ -11,6 +11,8 @@ Women experience depression at roughly twice the rate of men. Fewer than half of
 
 Thus, our application  aims to reduce depression and instil mental peace and serenity.
 
+![alt text](https://github.com/Sai-deepthi-13/depression-analyzer/blob/main/extension/product/Screenshot%20.png "Logo Title Text 1")
+
 # Approach:
 ## UI
 
