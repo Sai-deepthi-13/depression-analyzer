@@ -11,7 +11,7 @@ Women experience depression at roughly twice the rate of men. Fewer than half of
 
 Thus, our application  aims to reduce depression and instil mental peace and serenity.
 
-#Approach:
+# Approach:
 UI
 
 The user interface is a chrome extension, i.e., a web-based UI.
@@ -46,18 +46,17 @@ Then it takes user’s chrome history as an input text (in csv format) and pass 
 The predict function of model predicts the output on each row. The output is true if the sentence is depressive otherwise the output is false.
 Rating is done based on the number of depressive sentences.
 
-Dependencies
+# Dependencies
 Make sure you have these installed on your system before running the application
 
 Prediction using Machine Learning (dep1.py, dep2.py)
-
 $ sudo apt-get install python3.6
 $ sudo apt-get install pip3
 $ sudo pip3 install -U nltk
 $ sudo pip3 install pandas
 $ sudo pip3 install numpy
-For extracting Chrome History (browserhistory.py, gethistory.py, setup.py) Libraries used
 
+For extracting Chrome History (browserhistory.py, gethistory.py, setup.py) Libraries used
 import csv
 import os
 import sqlite3
@@ -65,8 +64,8 @@ import sys
 from datetime import datetime
 import copy
 import shutil
-Connection of Python Backend to Front end:
 
+# # Connection of Python Backend to Front end:
 Install Flask - $ sudo pip3 install Flask
 File structure: app.py
 Templates(dir) - index.html - response.html
@@ -74,7 +73,6 @@ Running the Application
 Extract the compressed zip file Serenera.tar.xz or clone this repository.
 
 Start the backend server
-
 Open the terminal
 Type the command
 sudo python3 app.py
