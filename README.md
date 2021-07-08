@@ -1,4 +1,4 @@
-# depression-detection
+# depression-analyzer
 Monitor Chrome Browsing to detect levels of Depression
 Overview
 Google receives 63000 searches per second on any given day. An average person conducts 3-4 searches every day. According to a report 322 million people worldwide live with depression. Depression is the leading cause of disability worldwide. Almost 75% of people with mental disorders remain untreated in developing countries with almost 1 million people taking their lives each year.
@@ -11,7 +11,7 @@ Women experience depression at roughly twice the rate of men. Fewer than half of
 
 Thus, our application  aims to reduce depression and instil mental peace and serenity.
 
-Approach:
+#Approach:
 UI
 
 The user interface is a chrome extension, i.e., a web-based UI.
